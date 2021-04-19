@@ -1,0 +1,57 @@
+body {
+  align-content: center;
+  background-attachment: fixed;
+  background-image: url("svg/curve.svg");
+  background-position: 0 75vh;
+  background-repeat: no-repeat;
+  display: flex;
+  font-family: ProximaNova;
+  padding: 0;
+  margin: 0;
+  background-size: contain;
+  font-size:.9em;
+  background-color:#ebedf2;
+  margin:.5em 0;
+}
+// universal table and td styles
+table{
+  border:none;
+  border-spacing: 0;
+  border-collapse: collapse;
+  padding:0;
+  border-spacing:0;
+  td{
+    padding:0;
+  }
+}
+// only outer table
+.table-outer{
+  max-height:1030px;
+  overflow:hidden;
+  margin-top:3em;
+  box-shadow: 5px 8px 10px 0px rgba(125,123,123,0.75);
+  -webkit-box-shadow: 5px 8px 10px 0px rgba(125,123,123,0.75);
+  -moz-box-shadow: 5px 8px 10px 0px rgba(125,123,123,0.75);
+}
+// trs except expanded row
+thead tr, table tr.quake-row{
+  display:grid;
+  width:100%;
+  grid-template-columns: 175px 200px 300px 120px 150px;
+}
+
+input{
+  margin-top:0.5em;
+  border:1px solid #ccc;
+  border-radius:.3em;
+  width:50%;
+  display:inline-block;
+  background-image: url("svg/search.svg");
+  background-repeat: no-repeat;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 20px;
+  text-indent: 20px;
+  font-size:1.3em;
+  color: #999;
+}

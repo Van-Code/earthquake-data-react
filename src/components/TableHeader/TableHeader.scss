@@ -1,0 +1,14 @@
+.TableHeader {
+  display: block;
+  background-color:#00cc99;
+  color:#fff;
+  text-align: left;
+  border-radius:.3em .3em 0 0;
+  th{
+    padding:1em;
+    &:not(:last-child){
+      border-right:1px solid #fff;
+    }
+  }
+}
+ 
