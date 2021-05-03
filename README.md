@@ -1,2 +1,2 @@
 # quakes
-Created with CodeSandbox
+React project to view earthquake data
